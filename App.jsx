@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const PILLARS = [
   {
-    day: 1,
+    pillar: 1,
     name: "LOYALTY",
     icon: "⚔️",
     color: "#C8A84B",
@@ -17,7 +17,7 @@ const PILLARS = [
     },
   },
   {
-    day: 2,
+    pillar: 2,
     name: "HONOR",
     icon: "🛡️",
     color: "#B5451B",
@@ -32,7 +32,7 @@ const PILLARS = [
     },
   },
   {
-    day: 3,
+    pillar: 3,
     name: "RESPECT",
     icon: "🤝",
     color: "#2E6B4F",
@@ -47,7 +47,7 @@ const PILLARS = [
     },
   },
   {
-    day: 4,
+    pillar: 4,
     name: "DISCIPLINE",
     icon: "🔥",
     color: "#1A3A5C",
@@ -62,7 +62,7 @@ const PILLARS = [
     },
   },
   {
-    day: 5,
+    pillar: 5,
     name: "LEADERSHIP",
     icon: "👑",
     color: "#6B2D8B",
@@ -80,14 +80,14 @@ const PILLARS = [
 
 const TIERS = [
   {
-    price: "$9.99",
+    price: "$49.99",
     label: "FOUNDATION",
     tagline: "Start the journey",
-    features: ["Bi-weekly group coaching calls", "Private community access", "Monthly accountability check-in"],
+    features: ["Bi-weekly group coaching calls", "Private community access", "Bi-weekly accountability check-in", "SBA Newsletter"],
     highlight: false,
   },
   {
-    price: "$39.99",
+    price: "$89.99",
     label: "WARRIOR",
     tagline: "Built for serious men",
     features: [
@@ -99,7 +99,7 @@ const TIERS = [
     highlight: true,
   },
   {
-    price: "$99.99",
+    price: "$189.99",
     label: "ELITE",
     tagline: "For men who lead",
     features: [
