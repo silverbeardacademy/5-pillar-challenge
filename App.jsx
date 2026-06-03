@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const PILLARS = [
   {
-    pillar: 1,
+    "pillar: 1",
     name: "LOYALTY",
     icon: "⚔️",
     color: "#C8A84B",
@@ -17,7 +17,7 @@ const PILLARS = [
     },
   },
   {
-    pillar: 2,
+    "pillar: 2",
     name: "HONOR",
     icon: "🛡️",
     color: "#B5451B",
@@ -32,7 +32,7 @@ const PILLARS = [
     },
   },
   {
-    pillar: 3,
+    "pillar: 3",
     name: "RESPECT",
     icon: "🤝",
     color: "#2E6B4F",
